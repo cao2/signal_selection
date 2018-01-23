@@ -1,0 +1,209 @@
+***cpu0*******
+cpu0
+cache0
+rd wt pwr_on pwr_off
+
+***cpu1*******
+cpu1
+cache1
+rd wt pwr_on pwr_off
+
+***cache0*****
+cache0
+cpu0
+rd wt pwr_on pwr_off
+
+***cache1*****
+cache1
+cpu1
+rd wt pwr_on pwr_off
+
+***cache01***
+cache0
+membus
+rd wt pwr_on pwr_off
+
+***cache11***
+cache1
+membus
+rd wt pwr_on pwr_off
+
+***cache02***
+cache0
+cache1
+rdreq wtreq
+
+***cache03***
+cache0
+cache1
+rdres wtres
+
+***cache12***
+cache1
+cache0
+rdreq wtreq
+
+***cache13***
+cache1
+cache0
+rdres wtres
+
+***membus0***
+membus
+mem
+rd wt
+
+***membus1***
+membus
+gfx
+rd wt
+
+***membus2***
+membus
+audio
+rd wt
+
+***membus3***
+membus
+usb
+rd wt
+
+***membus4***
+membus
+uart
+rd wt
+
+***mem***
+mem
+membus
+rd wt
+
+**gfx0***
+gfx
+membus
+rd wt
+
+**audio0***
+audio
+membus
+rd wt
+
+**usb0***
+usb
+membus
+rd wt
+
+**uart0***
+uart
+membus
+rd wt
+
+**gfx1***
+gfx
+membus
+uprd upwt
+
+**audio1***
+audio
+membus
+uprd upwt
+
+**usb1***
+usb
+membus
+uprd upwt
+
+**uart1***
+uart
+membus
+uprd upwt
+
+***membus5***
+membus
+gfx
+uprd upwt
+
+***membus6***
+membus
+audio
+uprd upwt
+
+***membus7***
+membus
+usb
+uprd upwt
+
+***membus8***
+membus
+uart
+uprd upwt
+
+***membus9***
+membus
+cache0
+rdreq
+
+***cache0res**
+cache0
+membus
+rdres
+
+***membus10**
+membus
+cache0
+rd wt pwr_on pwr_off
+
+***membus11***
+membus
+cache1
+rd wt pwr_on pwr_off
+
+***membus_pwr**
+membus
+pwr
+pwr_on pwr_off
+
+***pwr_membus**
+pwr
+membus
+pwr_on pwr_off
+
+***pwr0***
+pwr
+gfx
+pwr_on pwr_off
+
+***pwr1***
+pwr
+audio
+pwr_on pwr_off
+
+***pwr2***
+pwr
+uart
+pwr_on pwr_off
+
+***pwr3***
+pwr
+usb
+pwr_on pwr_off
+
+***gfx_pwr***
+gfx
+pwr
+pwr_on pwr_off
+
+***audio_pwr***
+audio
+pwr
+pwr_on pwr_off
+
+***uart_pwr***
+uart
+pwr
+pwr_on pwr_off
+
+***usb_pwr***
+usb
+pwr
+pwr_on pwr_off

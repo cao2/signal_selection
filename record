@@ -1,0 +1,481 @@
+There are 42 channels processed
+16 specifications
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 0::::::::***cpu0******* cpu0 cache0  cmd::rd wt pwr_on pwr_off 
+totoal number of group: 5
+group 0, cmd is rd, total numbers of speci 1
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is pwr_on, total numbers of speci 1
+group 3, cmd is pwr_off, total numbers of speci 1
+group 4, cmd is none, total numbers of speci 12
+group size 5
+standard deviation 4.4
+distinguishing power is size/(1+sd) 0.925926
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 1::::::::***cpu1******* cpu1 cache1  cmd::rd wt pwr_on pwr_off 
+totoal number of group: 5
+group 0, cmd is rd, total numbers of speci 1
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is pwr_on, total numbers of speci 1
+group 3, cmd is pwr_off, total numbers of speci 1
+group 4, cmd is none, total numbers of speci 12
+group size 5
+standard deviation 4.4
+distinguishing power is size/(1+sd) 0.925926
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 2::::::::***cache0***** cache0 cpu0  cmd::rd wt pwr_on pwr_off 
+totoal number of group: 5
+group 0, cmd is rd, total numbers of speci 1
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is pwr_on, total numbers of speci 1
+group 3, cmd is pwr_off, total numbers of speci 1
+group 4, cmd is none, total numbers of speci 12
+group size 5
+standard deviation 4.4
+distinguishing power is size/(1+sd) 0.925926
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 3::::::::***cache1***** cache1 cpu1  cmd::rd wt pwr_on pwr_off 
+totoal number of group: 5
+group 0, cmd is rd, total numbers of speci 1
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is pwr_on, total numbers of speci 1
+group 3, cmd is pwr_off, total numbers of speci 1
+group 4, cmd is none, total numbers of speci 12
+group size 5
+standard deviation 4.4
+distinguishing power is size/(1+sd) 0.925926
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 4::::::::***cache01*** cache0 membus  cmd::rd wt pwr_on pwr_off 
+totoal number of group: 5
+group 0, cmd is rd, total numbers of speci 1
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is pwr_on, total numbers of speci 1
+group 3, cmd is pwr_off, total numbers of speci 1
+group 4, cmd is none, total numbers of speci 12
+group size 5
+standard deviation 4.4
+distinguishing power is size/(1+sd) 0.925926
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 5::::::::***cache11*** cache1 membus  cmd::rd wt pwr_on pwr_off 
+totoal number of group: 5
+group 0, cmd is rd, total numbers of speci 1
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is pwr_on, total numbers of speci 1
+group 3, cmd is pwr_off, total numbers of speci 1
+group 4, cmd is none, total numbers of speci 12
+group size 5
+standard deviation 4.4
+distinguishing power is size/(1+sd) 0.925926
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 6::::::::***cache02*** cache0 cache1  cmd::rdreq wtreq 
+totoal number of group: 3
+group 0, cmd is rdreq, total numbers of speci 5
+group 1, cmd is wtreq, total numbers of speci 3
+group 2, cmd is none, total numbers of speci 8
+group size 3
+standard deviation 2.0548
+distinguishing power is size/(1+sd) 0.982059
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 7::::::::***cache03*** cache0 cache1  cmd::rdres wtres 
+totoal number of group: 3
+group 0, cmd is rdres, total numbers of speci 1
+group 1, cmd is wtres, total numbers of speci 1
+group 2, cmd is none, total numbers of speci 14
+group size 3
+standard deviation 6.12826
+distinguishing power is size/(1+sd) 0.42086
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 8::::::::***cache12*** cache1 cache0  cmd::rdreq wtreq 
+totoal number of group: 3
+group 0, cmd is rdreq, total numbers of speci 1
+group 1, cmd is wtreq, total numbers of speci 1
+group 2, cmd is none, total numbers of speci 14
+group size 3
+standard deviation 6.12826
+distinguishing power is size/(1+sd) 0.42086
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 9::::::::***cache13*** cache1 cache0  cmd::rdres wtres 
+totoal number of group: 3
+group 0, cmd is rdres, total numbers of speci 5
+group 1, cmd is wtres, total numbers of speci 3
+group 2, cmd is none, total numbers of speci 8
+group size 3
+standard deviation 2.0548
+distinguishing power is size/(1+sd) 0.982059
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 10::::::::***membus0*** membus mem  cmd::rd wt 
+totoal number of group: 3
+group 0, cmd is rd, total numbers of speci 8
+group 1, cmd is wt, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 6
+group size 3
+standard deviation 2.49444
+distinguishing power is size/(1+sd) 0.858507
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 11::::::::***membus1*** membus gfx  cmd::rd wt 
+totoal number of group: 3
+group 0, cmd is rd, total numbers of speci 7
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is none, total numbers of speci 8
+group size 3
+standard deviation 3.09121
+distinguishing power is size/(1+sd) 0.73328
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 12::::::::***membus2*** membus audio  cmd::rd wt 
+totoal number of group: 3
+group 0, cmd is rd, total numbers of speci 7
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is none, total numbers of speci 8
+group size 3
+standard deviation 3.09121
+distinguishing power is size/(1+sd) 0.73328
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 13::::::::***membus3*** membus usb  cmd::rd wt 
+totoal number of group: 3
+group 0, cmd is rd, total numbers of speci 7
+group 1, cmd is wt, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 7
+group size 3
+standard deviation 2.35702
+distinguishing power is size/(1+sd) 0.893649
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 14::::::::***membus4*** membus uart  cmd::rd wt 
+totoal number of group: 3
+group 0, cmd is rd, total numbers of speci 7
+group 1, cmd is wt, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 7
+group size 3
+standard deviation 2.35702
+distinguishing power is size/(1+sd) 0.893649
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 15::::::::***mem*** mem membus  cmd::rd wt 
+totoal number of group: 3
+group 0, cmd is rd, total numbers of speci 8
+group 1, cmd is wt, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 6
+group size 3
+standard deviation 2.49444
+distinguishing power is size/(1+sd) 0.858507
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 16::::::::**gfx0*** gfx membus  cmd::rd wt 
+totoal number of group: 3
+group 0, cmd is rd, total numbers of speci 7
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is none, total numbers of speci 8
+group size 3
+standard deviation 3.09121
+distinguishing power is size/(1+sd) 0.73328
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 17::::::::**audio0*** audio membus  cmd::rd wt 
+totoal number of group: 3
+group 0, cmd is rd, total numbers of speci 7
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is none, total numbers of speci 8
+group size 3
+standard deviation 3.09121
+distinguishing power is size/(1+sd) 0.73328
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 18::::::::**usb0*** usb membus  cmd::rd wt 
+totoal number of group: 3
+group 0, cmd is rd, total numbers of speci 7
+group 1, cmd is wt, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 7
+group size 3
+standard deviation 2.35702
+distinguishing power is size/(1+sd) 0.893649
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 19::::::::**uart0*** uart membus  cmd::rd wt 
+totoal number of group: 3
+group 0, cmd is rd, total numbers of speci 7
+group 1, cmd is wt, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 7
+group size 3
+standard deviation 2.35702
+distinguishing power is size/(1+sd) 0.893649
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 20::::::::**gfx1*** gfx membus  cmd::uprd upwt 
+totoal number of group: 3
+group 0, cmd is uprd, total numbers of speci 1
+group 1, cmd is upwt, total numbers of speci 1
+group 2, cmd is none, total numbers of speci 14
+group size 3
+standard deviation 6.12826
+distinguishing power is size/(1+sd) 0.42086
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 21::::::::**audio1*** audio membus  cmd::uprd upwt 
+totoal number of group: 3
+group 0, cmd is uprd, total numbers of speci 1
+group 1, cmd is upwt, total numbers of speci 1
+group 2, cmd is none, total numbers of speci 14
+group size 3
+standard deviation 6.12826
+distinguishing power is size/(1+sd) 0.42086
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 22::::::::**usb1*** usb membus  cmd::uprd upwt 
+totoal number of group: 3
+group 0, cmd is uprd, total numbers of speci 1
+group 1, cmd is upwt, total numbers of speci 0
+group 2, cmd is none, total numbers of speci 15
+group size 2
+standard deviation 7
+distinguishing power is size/(1+sd) 0.25
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 23::::::::**uart1*** uart membus  cmd::uprd upwt 
+totoal number of group: 3
+group 0, cmd is uprd, total numbers of speci 1
+group 1, cmd is upwt, total numbers of speci 0
+group 2, cmd is none, total numbers of speci 15
+group size 2
+standard deviation 7
+distinguishing power is size/(1+sd) 0.25
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 24::::::::***membus5*** membus gfx  cmd::uprd upwt 
+totoal number of group: 3
+group 0, cmd is uprd, total numbers of speci 1
+group 1, cmd is upwt, total numbers of speci 1
+group 2, cmd is none, total numbers of speci 14
+group size 3
+standard deviation 6.12826
+distinguishing power is size/(1+sd) 0.42086
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 25::::::::***membus6*** membus audio  cmd::uprd upwt 
+totoal number of group: 3
+group 0, cmd is uprd, total numbers of speci 1
+group 1, cmd is upwt, total numbers of speci 1
+group 2, cmd is none, total numbers of speci 14
+group size 3
+standard deviation 6.12826
+distinguishing power is size/(1+sd) 0.42086
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 26::::::::***membus7*** membus usb  cmd::uprd upwt 
+totoal number of group: 3
+group 0, cmd is uprd, total numbers of speci 1
+group 1, cmd is upwt, total numbers of speci 0
+group 2, cmd is none, total numbers of speci 15
+group size 2
+standard deviation 7
+distinguishing power is size/(1+sd) 0.25
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 27::::::::***membus8*** membus uart  cmd::uprd upwt 
+totoal number of group: 3
+group 0, cmd is uprd, total numbers of speci 1
+group 1, cmd is upwt, total numbers of speci 0
+group 2, cmd is none, total numbers of speci 15
+group size 2
+standard deviation 7
+distinguishing power is size/(1+sd) 0.25
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 28::::::::***membus9*** membus cache0  cmd::rdreq 
+totoal number of group: 2
+group 0, cmd is rdreq, total numbers of speci 4
+group 1, cmd is none, total numbers of speci 12
+group size 2
+standard deviation 4
+distinguishing power is size/(1+sd) 0.4
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 29::::::::***cache0res** cache0 membus  cmd::rdres 
+totoal number of group: 2
+group 0, cmd is rdres, total numbers of speci 4
+group 1, cmd is none, total numbers of speci 12
+group size 2
+standard deviation 4
+distinguishing power is size/(1+sd) 0.4
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 30::::::::***membus10** membus cache0  cmd::rd wt pwr_on pwr_off 
+totoal number of group: 5
+group 0, cmd is rd, total numbers of speci 1
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is pwr_on, total numbers of speci 1
+group 3, cmd is pwr_off, total numbers of speci 1
+group 4, cmd is none, total numbers of speci 12
+group size 5
+standard deviation 4.4
+distinguishing power is size/(1+sd) 0.925926
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 31::::::::***membus11*** membus cache1  cmd::rd wt pwr_on pwr_off 
+totoal number of group: 5
+group 0, cmd is rd, total numbers of speci 1
+group 1, cmd is wt, total numbers of speci 1
+group 2, cmd is pwr_on, total numbers of speci 1
+group 3, cmd is pwr_off, total numbers of speci 1
+group 4, cmd is none, total numbers of speci 12
+group size 5
+standard deviation 4.4
+distinguishing power is size/(1+sd) 0.925926
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 32::::::::***membus_pwr** membus pwr  cmd::pwr_on pwr_off 
+totoal number of group: 3
+group 0, cmd is pwr_on, total numbers of speci 2
+group 1, cmd is pwr_off, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 12
+group size 3
+standard deviation 4.71405
+distinguishing power is size/(1+sd) 0.525022
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 33::::::::***pwr_membus** pwr membus  cmd::pwr_on pwr_off 
+totoal number of group: 3
+group 0, cmd is pwr_on, total numbers of speci 2
+group 1, cmd is pwr_off, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 12
+group size 3
+standard deviation 4.71405
+distinguishing power is size/(1+sd) 0.525022
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 34::::::::***pwr0*** pwr gfx  cmd::pwr_on pwr_off 
+totoal number of group: 3
+group 0, cmd is pwr_on, total numbers of speci 2
+group 1, cmd is pwr_off, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 12
+group size 3
+standard deviation 4.71405
+distinguishing power is size/(1+sd) 0.525022
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 35::::::::***pwr1*** pwr audio  cmd::pwr_on pwr_off 
+totoal number of group: 3
+group 0, cmd is pwr_on, total numbers of speci 2
+group 1, cmd is pwr_off, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 12
+group size 3
+standard deviation 4.71405
+distinguishing power is size/(1+sd) 0.525022
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 36::::::::***pwr2*** pwr uart  cmd::pwr_on pwr_off 
+totoal number of group: 3
+group 0, cmd is pwr_on, total numbers of speci 2
+group 1, cmd is pwr_off, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 12
+group size 3
+standard deviation 4.71405
+distinguishing power is size/(1+sd) 0.525022
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 37::::::::***pwr3*** pwr usb  cmd::pwr_on pwr_off 
+totoal number of group: 3
+group 0, cmd is pwr_on, total numbers of speci 2
+group 1, cmd is pwr_off, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 12
+group size 3
+standard deviation 4.71405
+distinguishing power is size/(1+sd) 0.525022
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 38::::::::***gfx_pwr*** gfx pwr  cmd::pwr_on pwr_off 
+totoal number of group: 3
+group 0, cmd is pwr_on, total numbers of speci 2
+group 1, cmd is pwr_off, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 12
+group size 3
+standard deviation 4.71405
+distinguishing power is size/(1+sd) 0.525022
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 39::::::::***audio_pwr*** audio pwr  cmd::pwr_on pwr_off 
+totoal number of group: 3
+group 0, cmd is pwr_on, total numbers of speci 2
+group 1, cmd is pwr_off, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 12
+group size 3
+standard deviation 4.71405
+distinguishing power is size/(1+sd) 0.525022
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 40::::::::***uart_pwr*** uart pwr  cmd::pwr_on pwr_off 
+totoal number of group: 3
+group 0, cmd is pwr_on, total numbers of speci 2
+group 1, cmd is pwr_off, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 12
+group size 3
+standard deviation 4.71405
+distinguishing power is size/(1+sd) 0.525022
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+processing channel 41::::::::***usb_pwr*** usb pwr  cmd::pwr_on pwr_off 
+totoal number of group: 3
+group 0, cmd is pwr_on, total numbers of speci 2
+group 1, cmd is pwr_off, total numbers of speci 2
+group 2, cmd is none, total numbers of speci 12
+group size 3
+standard deviation 4.71405
+distinguishing power is size/(1+sd) 0.525022
+1 :: 0.4
+4 :: 0.925926
+2 :: 0.982059
